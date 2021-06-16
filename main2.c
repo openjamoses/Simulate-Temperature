@@ -13,7 +13,7 @@ int main2()
 {
     /* first what are we going to send and where are we going to send it? */
     int portno =        1880;
-    char *host =        "192.168.2.138";
+    char *host =        "127.0.0.1";
     char *message_fmt = "GET /hello-form/?name=%s HTTP/1.0\r\n\r\n";
 
     struct hostent *server;
